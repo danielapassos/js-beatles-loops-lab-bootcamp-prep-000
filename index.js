@@ -13,7 +13,7 @@ function theBeatlesPlay(musicians, instruments){
 function johnLennonFacts(facts){
   var empty = [];
   while (facts.length>0){
-    empty.push(facts + "!!!")
+    empty.push(`${facts.shift()}!!!`)
   }
   return empty;
 }
